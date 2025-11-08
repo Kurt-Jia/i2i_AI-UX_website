@@ -1115,14 +1115,14 @@ body {
 }
 
 .survey-content {
-    background-color: #333;
-    color: white;
+    background-color: #f5f5f5;
+    color: #333;
     padding: 2rem;
     border-radius: 10px;
 }
 
 .survey-description p {
-    color: white;
+    color: #333;
 }
 
 .survey-left {
