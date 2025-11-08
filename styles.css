@@ -1140,6 +1140,49 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* 微信公众号样式 */
+.wechat-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.wechat-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.wechat-qrcode {
+    display: inline-block;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wechat-qrcode:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.wechat-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.wechat-tip {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+    font-weight: 500;
+}
 .survey-button {
     display: inline-block;
     padding: 1rem 2.5rem;
