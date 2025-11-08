@@ -1114,6 +1114,17 @@ body {
     margin-top: 3rem;
 }
 
+.survey-content {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.survey-description p {
+    color: white;
+}
+
 .survey-left {
     flex: 0 0 300px;
     display: flex;
